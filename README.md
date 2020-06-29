@@ -4,19 +4,13 @@
     <img src="https://i.gyazo.com/601e409ab7165ba0c90403556c4408c8.gif">
 </h1>
 
-## <center> NextLevelWeek 1.0 🚀 [Rocketseat](https://rocketseat.com.br/) </center>
-
----
+# <center> NextLevelWeek 1.0 🚀 [Rocketseat](https://rocketseat.com.br/) </center>
 
 ## 📑 Sobre 
-
----
 
 O projeto tem como finalidade estabelecer uma conexão entre empresas ou entidades que coletam resíduos (orgânicos e inorgânicos) às pessoas ou entidades que necessitam constantemente descartar esses resíduos. Solucionando um grande problema recorrente que é o descarte inadequado do lixo, facilitando o processo de recliclagem e reutilização.
 
 ## 🧰 Tecnologias 
-
----
 
 As ferramentas de desenvolvimento usadas neste projeto foram:
 
@@ -29,29 +23,27 @@ As ferramentas de desenvolvimento usadas neste projeto foram:
 
 ## 🎨 Layout
 
----
-
 **Ecoleta** ♻️
 
-[![Image from Gyazo](https://i.gyazo.com/bea4d1f294248901e559f5e8ff91fac9.png)](https://gyazo.com/bea4d1f294248901e559f5e8ff91fac9)
+[![Image from Gyazo](https://i.gyazo.com/af93c666f1d2113d1ad255cb2bc481b9.png)](https://gyazo.com/af93c666f1d2113d1ad255cb2bc481b9)
 
 ---
 
 **Criar um ponto de coleta** 🖊️
 
-[![Image from Gyazo](https://i.gyazo.com/10b464cf167ce157d89b7a8969ad2042.png)](https://gyazo.com/10b464cf167ce157d89b7a8969ad2042)
+[![Image from Gyazo](https://i.gyazo.com/a6f2d1f879ca1e3142686a9e3a0d49be.png)](https://gyazo.com/a6f2d1f879ca1e3142686a9e3a0d49be)
 
 ---
 
 **Pesquisar pontos de coleta** 🔎
 
-[![Image from Gyazo](https://i.gyazo.com/3d1326c70f1c4395286ede04d9bc33d7.png)](https://gyazo.com/3d1326c70f1c4395286ede04d9bc33d7)
+[![Image from Gyazo](https://i.gyazo.com/103c04118c56a580b7a1733d78d06ef0.png)](https://gyazo.com/103c04118c56a580b7a1733d78d06ef0)
 
 ---
 
 **Resultados da pesquisa** 📄
 
-[![Image from Gyazo](https://i.gyazo.com/5d30710743bb26b514317addfe4d61f2.png)](https://gyazo.com/5d30710743bb26b514317addfe4d61f2)
+[![Image from Gyazo](https://i.gyazo.com/7104ec9f4aef9bc650aa9d068f98ce73.png)](https://gyazo.com/7104ec9f4aef9bc650aa9d068f98ce73)
 
 ---
 
@@ -59,6 +51,4 @@ As ferramentas de desenvolvimento usadas neste projeto foram:
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
 
----
-
-Feito com 💚 por Leonardo Campello 🙋‍♂️
+## Feito com 💚 por Leonardo Campello 🙋‍♂️
