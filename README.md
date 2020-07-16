@@ -6,22 +6,22 @@
 
 # <center> NextLevelWeek 1.0 🚀 [Rocketseat](https://rocketseat.com.br/) </center>
 
-## 📑 Sobre 
+## 📑 About 
 
-O projeto tem como finalidade estabelecer uma conexão entre empresas ou entidades que coletam resíduos (orgânicos e inorgânicos) às pessoas ou entidades que necessitam constantemente descartar esses resíduos. Solucionando um grande problema recorrente que é o descarte inadequado do lixo, facilitando o processo de recliclagem e reutilização.
+The project aims to establish a connection between companies or entities that collect waste (organic and inorganic) to people or entities that constantly need to dispose of this waste. Solving a major recurring problem that is the inappropriate disposal of garbage, facilitating the process of recycling and reuse.
 
-## 🧰 Tecnologias 
+## 🧰 Technology 
 
-As ferramentas de desenvolvimento usadas neste projeto foram:
+The development tools used in this project were
 
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Node.js](https://nodejs.org/en/)
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 - [SQLite](https://github.com/mapbox/node-sqlite3)
-- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 ## 🎨 Layout
+
+- **[Figma](https://www.figma.com/file/Byw4X5etg8VCmezueyhzkC/Ecoleta-(Starter)?node-id=136%3A1026)**
 
 **Ecoleta** ♻️
 
@@ -29,26 +29,26 @@ As ferramentas de desenvolvimento usadas neste projeto foram:
 
 ---
 
-**Criar um ponto de coleta** 🖊️
+**Create a collection point** 🖊️
 
 [![Image from Gyazo](https://i.gyazo.com/a6f2d1f879ca1e3142686a9e3a0d49be.png)](https://gyazo.com/a6f2d1f879ca1e3142686a9e3a0d49be)
 
 ---
 
-**Pesquisar pontos de coleta** 🔎
+**Search collection points** 🔎
 
 [![Image from Gyazo](https://i.gyazo.com/103c04118c56a580b7a1733d78d06ef0.png)](https://gyazo.com/103c04118c56a580b7a1733d78d06ef0)
 
 ---
 
-**Resultados da pesquisa** 📄
+**Search results** 📄
 
 [![Image from Gyazo](https://i.gyazo.com/7104ec9f4aef9bc650aa9d068f98ce73.png)](https://gyazo.com/7104ec9f4aef9bc650aa9d068f98ce73)
 
 ---
 
-## 📝 Licença
+## 📜 License 
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
+Released in 2020. This project is under the [MIT license](LICENSE).
 
-## Feito com 💚 por Leonardo Campello 🙋‍♂️
+## Made with love by Leonardo Campello 💚 
