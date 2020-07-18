@@ -6,6 +6,11 @@
 
 # <center> NextLevelWeek 1.0 🚀 [Rocketseat](https://rocketseat.com.br/) </center>
 
+[![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![PyPI status](https://img.shields.io/pypi/status/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
+
 ## 📑 About 
 
 The project aims to establish a connection between companies or entities that collect waste (organic and inorganic) to people or entities that constantly need to dispose of this waste. Solving a major recurring problem that is the inappropriate disposal of garbage, facilitating the process of recycling and reuse.
@@ -21,29 +26,29 @@ The development tools used in this project were
 
 ## 🎨 Layout
 
-- **[Figma](https://www.figma.com/file/Byw4X5etg8VCmezueyhzkC/Ecoleta-(Starter)?node-id=136%3A1026)**
+**[Figma](https://www.figma.com/file/Byw4X5etg8VCmezueyhzkC/Ecoleta-(Starter)?node-id=136%3A1026)**
 
 **Ecoleta** ♻️
 
-[![Image from Gyazo](https://i.gyazo.com/af93c666f1d2113d1ad255cb2bc481b9.png)](https://gyazo.com/af93c666f1d2113d1ad255cb2bc481b9)
+![home](./.github/home.png)
 
 ---
 
 **Create a collection point** 🖊️
 
-[![Image from Gyazo](https://i.gyazo.com/a6f2d1f879ca1e3142686a9e3a0d49be.png)](https://gyazo.com/a6f2d1f879ca1e3142686a9e3a0d49be)
+![create-point](/.github/create-point.png)
 
 ---
 
 **Search collection points** 🔎
 
-[![Image from Gyazo](https://i.gyazo.com/103c04118c56a580b7a1733d78d06ef0.png)](https://gyazo.com/103c04118c56a580b7a1733d78d06ef0)
+![search-point](/.github/search-point.png)
 
 ---
 
 **Search results** 📄
 
-[![Image from Gyazo](https://i.gyazo.com/7104ec9f4aef9bc650aa9d068f98ce73.png)](https://gyazo.com/7104ec9f4aef9bc650aa9d068f98ce73)
+![search-results](/.github/search-results.png)
 
 ---
 
