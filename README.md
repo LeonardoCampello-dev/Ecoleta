@@ -6,9 +6,9 @@
 
 # <center> NextLevelWeek 1.0 🚀 [Rocketseat](https://rocketseat.com.br/) </center>
 
-[![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![PyPI status](https://img.shields.io/pypi/status/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+![GitHub last commit](https://img.shields.io/github/last-commit/LeonardoCampello-dev/Ecoleta?color=ligthgreen)
+![GitHub repo size](https://img.shields.io/github/repo-size/LeonardoCampello-dev/Ecoleta?color=ligthgren)
+![GitHub](https://img.shields.io/github/license/LeonardoCampello-dev/Ecoleta?color=ligthgreen)
 
 
 ## 📑 About 
