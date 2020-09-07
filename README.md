@@ -36,13 +36,13 @@ The development tools used in this project were
 
 **Create a collection point** 🖊️
 
-![create-point](./.github/Create-point.png)
+![create-point](.github/Create-point.png)
 
 ---
 
 **Search collection points** 🔎
 
-![search-point](./.github/Search-point.png)
+![search-point](.github/Search-point.png)
 
 ---
 
