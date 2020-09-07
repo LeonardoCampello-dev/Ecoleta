@@ -1,7 +1,7 @@
 # <center> ♻️ Ecoleta </center>
 
 <h1 align="center">
-    <img src="https://i.gyazo.com/601e409ab7165ba0c90403556c4408c8.gif">
+    <img src="./public/assets/home-background.svg" width="300">
 </h1>
 
 # <center> NextLevelWeek 1.0 🚀 [Rocketseat](https://rocketseat.com.br/) </center>
@@ -30,25 +30,25 @@ The development tools used in this project were
 
 **Ecoleta** ♻️
 
-![home](./.github/home.png)
+![home](./.github/Home.png)
 
 ---
 
 **Create a collection point** 🖊️
 
-![create-point](/.github/create-point.png)
+![create-point](./.github/Create-point.png)
 
 ---
 
 **Search collection points** 🔎
 
-![search-point](/.github/search-point.png)
+![search-point](./.github/Search-point.png)
 
 ---
 
 **Search results** 📄
 
-![search-results](/.github/search-results.png)
+![results](./.github/Results.png)
 
 ---
 
