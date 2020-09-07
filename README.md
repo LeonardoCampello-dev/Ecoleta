@@ -30,25 +30,25 @@ The development tools used in this project were
 
 **Ecoleta** ♻️
 
-![home](./.github/Home.png)
+![home](.github/home.png)
 
 ---
 
 **Create a collection point** 🖊️
 
-![create-point](.github/Create-point.png)
+![create](.github/create.png)
 
 ---
 
 **Search collection points** 🔎
 
-![search-point](.github/Search-point.png)
+![search](.github/search.png)
 
 ---
 
 **Search results** 📄
 
-![results](./.github/Results.png)
+![results](.github/results.png)
 
 ---
 
