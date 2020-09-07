@@ -46,12 +46,6 @@ The development tools used in this project were
 
 ---
 
-**Search results** 📄
-
-![results](.github/results.png)
-
----
-
 ## 📜 License 
 
 Released in 2020. This project is under the [MIT license](LICENSE).
