@@ -21,14 +21,14 @@ nunjucks.configure("src/views", {
 //Página inicial
 //Req: Requisição && Res: Resposta
 server.get("/", (req, res) => {
-    return res.render("index.html")
+    return res.render("index.njk")
 })
 
 server.get("/create-point", (req, res) => {
     // rer.query: Query Strings da nossa URL
-    //console.log(req.query)
+    //console.  (req.query)
 
-    return res.render("create-point.html")
+    return res.render("create-point.njk")
 })
 server.post("/savepoint", (req, res) => {
     //req.body: O corpo do nosso formulário
@@ -47,7 +47,7 @@ server.post("/savepoint", (req, res) => {
         ) VALUES (?,?,?,?,?,?,?);
     `
     const values = [
-        req.body.image, 
+        req.body.image,
         req.body.name,
         req.body.address,
         req.body.address2,
@@ -64,7 +64,7 @@ server.post("/savepoint", (req, res) => {
         console.log("Cadastrado com sucesso")
         console.log(this)
 
-        return res.render("create-point.html", { saved: true })
+        return res.render("create-point.njk", { saved: true })
     }
 
     db.run(query, values, afterInsertData)
@@ -74,11 +74,11 @@ server.post("/savepoint", (req, res) => {
 server.get("/search", (req, res) => {
     const search = req.query.search
 
-    if(search == "") {
+    if (search == "") {
         //Pesquisa vazia
-        return res.render("search-results.html", {total: 0})
+        return res.render("search-results.njk", { total: 0 })
     }
-    
+
     //Pegar os dados do banco de dados
     db.all(`SELECT * FROM places WHERE city LIKE '%${search}%'`, function (err, rows) {
         if (err) {
@@ -87,7 +87,7 @@ server.get("/search", (req, res) => {
         const total = rows.length
 
         //Mostrar a página HTML com os dados do banco de dados
-        return res.render("search-results.html", { places: rows, total: total })
+        return res.render("search-results.njk", { places: rows, total: total })
     })
 })
 
