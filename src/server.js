@@ -1,40 +1,25 @@
 const express = require("express")
 const server = express()
 
-//Pegar o banco de dados
 const db = require("./database/db")
 
-//Configurar pasta pública 
 server.use(express.static("public"))
-
-//Habilitar o uso do req.body na nossa aplicação
 server.use(express.urlencoded({ extended: true }))
 
-//Utilizando template engine
 const nunjucks = require("nunjucks")
 nunjucks.configure("src/views", {
     express: server,
     noCache: true
 })
 
-//Configurar caminhos da minha aplicação
-//Página inicial
-//Req: Requisição && Res: Resposta
 server.get("/", (req, res) => {
     return res.render("index.njk")
 })
 
 server.get("/create-point", (req, res) => {
-    // rer.query: Query Strings da nossa URL
-    //console.  (req.query)
-
     return res.render("create-point.njk")
 })
 server.post("/savepoint", (req, res) => {
-    //req.body: O corpo do nosso formulário
-    //console.log(req.body)
-
-    //Inserir dados no banco de dados
     const query = `
         INSERT INTO places (
             image,
@@ -74,22 +59,16 @@ server.post("/savepoint", (req, res) => {
 server.get("/search", (req, res) => {
     const search = req.query.search
 
-    if (search == "") {
-        //Pesquisa vazia
-        return res.render("search-results.njk", { total: 0 })
-    }
+    if (search == "") return res.render("search-results.njk", { total: 0 })
 
-    //Pegar os dados do banco de dados
     db.all(`SELECT * FROM places WHERE city LIKE '%${search}%'`, function (err, rows) {
         if (err) {
             return console.log(err)
         }
         const total = rows.length
 
-        //Mostrar a página HTML com os dados do banco de dados
         return res.render("search-results.njk", { places: rows, total: total })
     })
 })
 
-//Ligar o servidor
 server.listen(3000)
