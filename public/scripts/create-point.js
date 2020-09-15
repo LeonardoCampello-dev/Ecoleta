@@ -1,12 +1,12 @@
 function populateUFs() {
-    const ufSelect = document.querySelector("select[name=uf]")
+    const ufSelect = document.querySelector('select[name=uf]')
 
-    fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados")
+    fetch('https://servicodados.ibge.gov.br/api/v1/localidades/estados')
         .then(res => res.json())
         .then(states => {
 
             for (const state of states) {
-                ufSelect.innerHTML += `<option value = "${state.id}">${state.nome}</option>`
+                ufSelect.innerHTML += `<option value= '${state.id}'>${state.nome}</option>`
             }
 
         })
@@ -15,8 +15,8 @@ function populateUFs() {
 populateUFs()
 
 function getCities(event) {
-    const citySelect = document.querySelector("select[name=city]")
-    const stateInput = document.querySelector("input[name=state]")
+    const citySelect = document.querySelector('select[name=city]')
+    const stateInput = document.querySelector('input[name=state]')
 
     const ufValue = event.target.value
 
@@ -25,7 +25,7 @@ function getCities(event) {
 
     const url = `https://servicodados.ibge.gov.br/api/v1/localidades/estados/${ufValue}/municipios`
 
-    citySelect.innerHTML = "<option value>Selecione a Cidade</option>"
+    citySelect.innerHTML = '<option value>Selecione a Cidade</option>'
     citySelect.disabled = true
 
     fetch(url)
@@ -34,7 +34,7 @@ function getCities(event) {
 
 
             for (const city of cities) {
-                citySelect.innerHTML += `<option value = "${city.nome}">${city.nome}</option>`
+                citySelect.innerHTML += `<option value= '${city.nome}'>${city.nome}</option>`
             }
 
             citySelect.disabled = false
@@ -43,23 +43,23 @@ function getCities(event) {
 
 
 document
-    .querySelector("select[name=uf]")
-    .addEventListener("change", getCities)
+    .querySelector('select[name=uf]')
+    .addEventListener('change', getCities)
 
-const itemsToCollect = document.querySelectorAll(".items-grid li")
+const itemsToCollect = document.querySelectorAll('.items-grid li')
 
 for (let item of itemsToCollect) {
-    item.addEventListener("click", handleSelectedItem)
+    item.addEventListener('click', handleSelectedItem)
 }
 
-const collectedItems = document.querySelector("input[name=items]")
+const collectedItems = document.querySelector('input[name=items]')
 
 let selectedItems = []
 
 function handleSelectedItem(event) {
     const itemLi = event.target
 
-    itemLi.classList.toggle("selected")
+    itemLi.classList.toggle('selected')
 
     const itemId = itemLi.dataset.id
 

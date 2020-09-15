@@ -1,17 +1,17 @@
 const express = require('express')
 const routes = express.Router()
 
-const db = require("./database/db")
+const db = require('./database/db')
 
-routes.get("/", (req, res) => {
-    return res.render("index.njk")
+routes.get('/', (req, res) => {
+    return res.render('index.njk')
 })
 
-routes.get("/create-point", (req, res) => {
-    return res.render("create-point.njk")
+routes.get('/create-point', (req, res) => {
+    return res.render('create-point.njk')
 })
 
-routes.post("/savepoint", (req, res) => {
+routes.post('/savepoint', (req, res) => {
     const query = `
         INSERT INTO places (
             image,
@@ -36,30 +36,36 @@ routes.post("/savepoint", (req, res) => {
     function afterInsertData(err) {
         if (err) {
             console.log(err)
-            return res.send("Erro no cadastro!")
+            return res.send('Erro no cadastro!')
         }
-        console.log("Cadastrado com sucesso")
+
+        console.log('Cadastrado com sucesso')
         console.log(this)
 
-        return res.render("create-point.njk", { saved: true })
+        return res.render('create-point.njk', { saved: true })
     }
 
     db.run(query, values, afterInsertData)
-
 })
 
-routes.get("/search", (req, res) => {
+routes.get('/search', (req, res) => {
     const search = req.query.search
 
-    if (search == "") return res.render("search-results.njk", { total: 0 })
+    if (search == '') return res.render('search-results.njk', { total: 0 })
 
-    db.all(`SELECT * FROM places WHERE city LIKE '%${search}%'`, function (err, rows) {
+    const query = `
+        SELECT * 
+        FROM places 
+        WHERE city LIKE '%${search}%'
+    `
+    
+    db.all(query, (err, rows) => {
         if (err) {
             return console.log(err)
         }
         const total = rows.length
 
-        return res.render("search-results.njk", { places: rows, total: total })
+        return res.render('search-results.njk', { places: rows, total: total })
     })
 })
 
