@@ -24,7 +24,7 @@
 
                 {% for place in places %}
                     <div class="card">
-                        <img src="{{ place.image }}" alt="{{ place.name }}">
+                        <img src="{{ place.image_url }}" alt="{{ place.name }}">
                         
                         <h1>{{ place.name }}</h1>
                         
@@ -33,7 +33,7 @@
                         <p>
                             {{ place.city }}, {{ place.state }} <br>
                             {{ place.address }}<br>
-                            {{ place.address2 }}
+                            {{ place.complement }}
                         </p>
                     </div>
                 {% endfor %}
