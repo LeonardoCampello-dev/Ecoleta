@@ -1,15 +1,18 @@
-# <center> ♻️ Ecoleta </center>
+<h1 align="center"> 
+    ♻️ Ecoleta 
+</h1>
 
 <h1 align="center">
     <img src="./public/assets/home-background.svg" width="300">
-</h1>
 
-# <center> NextLevelWeek 1.0 🚀 [Rocketseat](https://rocketseat.com.br/) </center>
+
+<h1 align="center"> 
+    NextLevelWeek 1.0 🚀 <a href="https://rocketseat.com.br/">Rocketseat</a>
+</h1>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/LeonardoCampello-dev/Ecoleta?color=ligthgreen)
 ![GitHub repo size](https://img.shields.io/github/repo-size/LeonardoCampello-dev/Ecoleta?color=ligthgren)
 ![GitHub](https://img.shields.io/github/license/LeonardoCampello-dev/Ecoleta?color=ligthgreen)
-
 
 ## 📑 About 
 
@@ -21,8 +24,7 @@ The development tools used in this project were
 
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Node.js](https://nodejs.org/en/)
-- [Nunjucks](https://mozilla.github.io/nunjucks/)
-- [SQLite](https://github.com/mapbox/node-sqlite3)
+- [PostgreSQL](https://www.postgresql.org/)
 
 ## 🎨 Layout
 
