@@ -13,7 +13,7 @@ module.exports = {
         return res.render('create-point.njk', { saved: true })
     },
     async search(req, res) {
-        const search = req.query.search
+        const { search } = req.query
 
         if (search == '') return res.render('search-results.njk', { total: 0 })
 
