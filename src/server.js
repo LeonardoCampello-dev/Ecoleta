@@ -1,17 +1,17 @@
-const express = require('express')
-const nunjucks = require('nunjucks')
+const express = require("express");
+const nunjucks = require("nunjucks");
 
-const routes = require('./routes/index')
+const routes = require("./routes/index");
 
-const server = express()
+const server = express();
 
-server.use(express.urlencoded({ extended: true }))
-server.use(express.static('public'))
-server.use(routes)
+server.use(express.urlencoded({ extended: true }));
+server.use(express.static("public"));
+server.use(routes);
 
-nunjucks.configure('src/app/views', {
-    express: server,
-    noCache: true
-})
+nunjucks.configure("src/app/views", {
+  express: server,
+  noCache: true,
+});
 
-server.listen(3000)
+server.listen(3000);
