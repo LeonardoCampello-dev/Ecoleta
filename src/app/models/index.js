@@ -1,20 +1,20 @@
-const db = require("../../config/db");
+const db = require('../../config/db');
 
 module.exports = {
   async create(data) {
     try {
       const query = `
-                INSERT INTO places (
-                    name,
-                    image_url,
-                    address,
-                    complement,
-                    state,
-                    city,
-                    items
-                ) VALUES ($1, $2, $3, $4, $5, $6, $7)
-                RETURNING id
-            `;
+        INSERT INTO places (
+            name,
+            image_url,
+            address,
+            complement,
+            state,
+            city,
+            items
+        ) VALUES ($1, $2, $3, $4, $5, $6, $7)
+        RETURNING id
+      `;
       const values = [
         data.name,
         data.image_url,
@@ -33,11 +33,11 @@ module.exports = {
   async search(term) {
     try {
       const query = `
-                SELECT * 
-                FROM places 
-                WHERE city ILIKE '%${term}%'
-                OR state ILIKE '%${term}%'
-            `;
+        SELECT * 
+        FROM places 
+        WHERE city ILIKE '%${term}%'
+        OR state ILIKE '%${term}%'
+      `;
 
       const results = await db.query(query);
 
